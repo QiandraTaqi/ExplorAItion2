@@ -1,0 +1,23 @@
+{
+  "name": "medlocate-emergency-medicine-finder",
+  "version": "1.0.0",
+  "description": "MedLocate - Prototype Aplikasi Agregator Stok & Reservasi Obat Darurat Real-Time",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "serve": "npx serve . -l 3000",
+    "dev": "npx serve . -l 3000",
+    "test": "node --check mockData.js && node --check app.js"
+  },
+  "keywords": [
+    "medlocate",
+    "emergency-medicine",
+    "pharmacy-aggregator",
+    "kfa-kemenkes",
+    "zero-pos",
+    "stock-lock",
+    "prototype"
+  ],
+  "author": "MedLocate Engineering Team",
+  "license": "MIT"
+}
